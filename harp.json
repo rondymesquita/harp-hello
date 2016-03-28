@@ -1,0 +1,16 @@
+{
+  "globals": {
+    "name": "harp-hello",
+    "title": "Harp Hello",
+    "url": "",
+    "description": "Hi! I am an example of harpjs",
+    "authors": {
+      "Rondy": {
+        "name": "Rondy Mesquita",
+        "email": "rondinellimesquitas@gmail.com",
+        "bio": "Developer | Tester",
+        "github": "rondymesquita"
+      }
+    }
+  }
+}
