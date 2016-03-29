@@ -1,9 +1,11 @@
 <h3>AngularJS</h3>
 
-<% for(var slug in public.angularjs._data){ %>
+<% for(var slug in public.angularjs._data){
+    var link = public.angularjs._data[slug];
+ %>
   <h2>
-      <a href="/posts/<%= slug %>">
-          <%= public.angularjs._data[slug].title %>
+      <a href="<%= link.url %>" target="_blank">
+          <%= slug %>
       </a>
   </h2>
   <%- partial("posts/" + slug) %>

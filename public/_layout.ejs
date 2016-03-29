@@ -2,9 +2,9 @@
 
 
 <html>
-  <%- partial("_partials/head") %>
+  <% include _partials/head %>
   <body>
-    <%- partial("_partials/header") %>
+    <% include _partials/header %>
     <%- yield %>
     <div id="footer">
       <p>Copyright © foobar</p>

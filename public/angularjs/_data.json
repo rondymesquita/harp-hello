@@ -1,10 +1,6 @@
 {
-  "hello-world": {
-    "title": "Hello World.",
+  "Best Practices for Building Angular.js Apps": {
+    "url":"https://medium.com/@dickeyxxx/best-practices-for-building-angular-js-apps-266c1a4a6917#.jgauuicb4",
     "date": "2013-02-28"
-  },
-  "hello-brazil": {
-    "title": "Hello Brazil.",
-    "date": "2013-03-04"
   }
 }

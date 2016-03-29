@@ -1,2 +1,8 @@
-<h3>This is yours to own. Enjoy</h3>
-<h4>Hi Guy</h4>
+<% for(var slug in public._data){ %>
+  <h2>
+      <a href="/<%= slug %>">
+          <%= public._data[slug].title %>
+      </a>
+  </h2>
+  <%- partial("posts/" + slug) %>
+<% }; %>

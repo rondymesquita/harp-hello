@@ -1,10 +1,6 @@
 {
-  "hello-world": {
-    "title": "Hello World.",
+  "angularjs": {
+    "title": "AngularJS",
     "date": "2013-02-28"
-  },
-  "hello-brazil": {
-    "title": "Hello Brazil.",
-    "date": "2013-03-04"
   }
 }
