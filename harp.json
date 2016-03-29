@@ -11,6 +11,10 @@
         "bio": "Developer | Tester",
         "github": "rondymesquita"
       }
+  },
+  "paths": {
+      "root":"./",
+      "folder":"../"
     }
   }
 }
